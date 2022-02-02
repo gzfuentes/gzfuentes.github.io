@@ -1,0 +1,225 @@
+/* --- GENERAL --- */
+
+.rosa {
+   color: #ff1493;
+}
+
+.blanco {
+    color: #ffffff;
+}
+
+.griscl {
+    color: #c2c3c3;
+}
+
+.line-mf {
+    background-color: #ffffff;
+}
+
+.title-left:before {
+    background-color: #ffffff;
+}
+
+.fondo-gris {
+    background-color: #2c2d2f;
+}
+
+
+/* --- NAVBAR ---*/
+
+.navbar-b.navbar-reduce .show > .nav-link, .navbar-b.navbar-reduce .active > .nav-link, .navbar-b.navbar-reduce .nav-link.show, .navbar-b.navbar-reduce .nav-link.active {
+    /* color: #ff1493; */
+    color: #ffffff;
+}
+
+.navbar-b.navbar-reduce .nav-link {
+    color: #ff1493;
+}
+
+.navbar-b.navbar-reduce .nav-link:hover {
+    /* color: #ff1493; */
+    color: #ffffff;
+}
+
+.navbar-b.navbar-reduce .nav-link:before {
+    /* background-color: #ff1493; */
+    background-color: #ffffff;
+}
+
+.navbar-b.navbar-reduce {
+    background-color: #2c2d2f;
+}
+
+.navbar-b.navbar-reduce .navbar-toggler span {
+    background-color: #ffffff;
+}
+
+
+/* --- INTRO --- */
+
+.gzlogo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+
+/* --- SOBRE MÍ ---*/
+
+.box-shadow-full {
+    background-color: #2c2d2f;
+}
+
+.title-aboutme {
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+.title-aboutme:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 335px;
+    bottom: -12px;
+}
+
+.skill-mf span {
+    color: #ffffff;
+}
+
+.skill-mf .progress .progress-bar {
+    background-color: #ff1493;
+}
+
+.skill-mf .progress {
+    background-color: #ffffff;
+}
+
+
+/* --- HABILIDADES --- */
+
+.ico-circle {
+    box-shadow: 0 0 0 10px #ff1493;
+}
+
+.service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #ff1493;
+    box-shadow: 0 0 0 10px #f386c0;
+}
+
+.service-box {
+    background-color: #2c2d2f;
+    border-style: solid;
+    border-color: #ff1493;
+}
+
+.service-box .s-description {
+    color: #c2c3c3;
+}
+
+
+
+/* --- CONTADOR --- */
+
+.counter-ico .ico-circle {
+    box-shadow: 0 0 0 10px #ff1493;
+}
+
+
+
+/* --- GALERÍA --- */
+
+.work-box {
+    background-color: #2c2d2f;
+    border-style: solid;
+    /* border-radius: 1rem; */
+    border-width: 1px;
+    border-color: #ff1493;
+}
+
+.work-content .w-more .w-ctegory {
+color: #ff1493;
+}
+
+.work-content .w-more {
+    color: #ff1493;
+}
+
+
+/* --- BLOG --- */
+
+.card-blog .card-category {
+    background-color: #ff1493;
+
+}
+
+a:hover {
+    color: #ff1943;
+}
+
+/* --- CONTACTO --- */
+
+.contact-mf {
+    margin-top: 0rem;
+}
+
+.overlay-mf {
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.socials .ico-circle {
+    box-shadow: 0 0 0 3px #ff1493;
+    color: #c2c2c3;
+}
+
+.socials .ico-circle:hover {
+    background-color: #ff1493;
+    box-shadow: 0 0 0 3px #f386c0;
+}
+
+.php-email-form button[type="submit"] {
+    background: #ff1493;
+    color: #ffffff;
+}
+
+.php-email-form button[type="submit"]:hover {
+    background: #ff65b7;
+    color:#ffffff;
+}
+
+.box-shadow-a, .button:hover {
+    box-shadow: 0 0 0 4px #f386c0;
+    color: #ffffff;
+}
+
+.ion-ios-location:before {
+    color: #ff1493;
+}
+
+.ion-email:before {
+    color: #ff1493;
+}
+
+.gzlogo-contacto {
+    display: flex;
+    justify-content: left;
+}
+
+
+/* --- FOOTER --- */
+
+footer {
+    background: #2c2d2f;
+}
+
+
+/* --- Back to top --- */
+
+.back-to-top {
+    background: #ff1493;
+}
